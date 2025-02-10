@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    background-color: rgb(47, 42, 42);
+}
+.container .header .logo-1 a img{
+    background-size: cover;
+    width: 100%;
+}
+.container .header .logo-cover img{
+    background-size: cover;
+    width: 100%;
+}
+.name-sell{
+    background-color: white;
+  width: 8%;
+    padding: 10px;
+    margin-left: 17px;
+    margin-top: 40px;
+    border-radius: 0 40px 0 0;
+    
+}
+.name-sell p{
+    font-size: 20px;
+}
+hr{
+   
+    margin-left: 17px;
+}
+@media only screen and (max-width: 1131px){
+    .name-sell{
+      width: 10%;
+       
+        
+    }
+}
+@media only screen and (max-width: 898px){
+    .name-sell{
+      width: 14%;
+       
+        
+    }
+}
+@media only screen and (max-width: 647px){
+    .name-sell{
+      width: 18%;
+       
+        
+    }
+}
+@media only screen and (max-width: 502px){
+    .name-sell{
+      width: 25%;
+       
+        
+    }
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.card-container .card{
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    height: 333px;
+   transition: translateY 0.6s ease;
+   margin-top: 50px;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-container .card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-container .card .card-header{
+    padding: 20px;
+    
+}
+.card-container .card .card-header h1{
+    font-size: 15px;
+   
+}
+.card-container .card .card-header p{
+    font-size: 15px;
+   padding-top: 7px;
+   padding-bottom: 17px;
+}
+.card-container .card .card-header a{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(0, 221, 255);
+   color: white;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+
+.card-container-1{
+  
+
+ 
+}
+.card-container-1 p{
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    
+}
+.card-container-1 .card-1 img{
+    width: 40%;
+}
+.buy {
+    margin: 50px;
+}
+.buy a{
+    background-color: red;
+padding: 30px 50px;
+color: white;
+text-decoration: none;
+border-radius: 10px;
+}
+
+
+
